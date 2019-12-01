@@ -1,7 +1,8 @@
 Dependencies:
 
+* Python 3  (I use Python 3.7.5)
 * PulseAudio (sink is selectable using the PULSE_SINK environment variable)
-* VLC (uses command line interface)
+* VLC (uses cvlc command line interface only)
 
 You can run this script from .xsession or window manager auto-start. All these files
   go in $HOME/etc/chimer, but you could edit that in the script.
